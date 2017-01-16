@@ -6,9 +6,9 @@ def fib(n):
 #        print(a)
         a,b=b,a+b
     print()
-num = int(input("请输入一个数:"))
-fib(num)
-print('df')
-#if __name__ == "__main__":
-#    import sys
-#    fib(int(sys.argv[1]))
+#num = int(input("请输入一个数:"))
+#fib(num)
+#print('df')
+if __name__ == "__main__":
+    import sys
+    fib(int(sys.argv[1]))
