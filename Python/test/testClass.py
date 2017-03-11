@@ -21,5 +21,4 @@ if __name__ == '__main__':
     dog = Dog('dog')
     #dog.run()
     dog.printInfo()
-    print(getattr(dog,'_Dog__name'))
     #print(dog.name)
